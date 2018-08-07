@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ShoppingListMaker</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="created_by">Kamil Młocek</string>
+    <string name="created_by_email">mlocek.kamil@gmail.com</string>
+    <string name="how_many_days">Dni:</string>
+    <string name="how_many_people">Osoby:</string>
+    <string name="create_shoping_list">Stwórz listę</string>
+    <string name="shopping_list">Lista zakupów</string>
+    <string name="shopping_list_range">Zakres listy</string>
+    <string name="shopping_lists">Listy zakupów</string>
+    <string name="press_back_again">Naciśnij jeszcze raz aby wyjść</string>
+    <string name="nothing_checked">Nic nie zostało zaznaczone</string>
+    <string name="clear_list">Wyczyść listę</string>
+    <string name="remove_list_row_content">Czy napewno chcesz usunąć tę listę?</string>
+    <string name="clear_the_list_content">Czy napewno chcesz wyczyścić listę?</string>
+    <string name="remove_title">"Usuń"</string>
+</resources>

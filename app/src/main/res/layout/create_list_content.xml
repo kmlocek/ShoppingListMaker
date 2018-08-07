@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/create_list_app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreateShoppingListActivity">
+
+    <LinearLayout
+        android:id="@+id/daysAndPeopleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_border"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+
+            android:ems="10"
+            android:focusable="false"
+
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:minWidth="45dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/how_many_days"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/daysSpinner"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center"
+            android:text="@string/how_many_people"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/peopleSpinner"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:focusableInTouchMode="false" />
+
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/createListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </ExpandableListView>
+
+    <Button
+        android:id="@+id/createListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="@string/create_shoping_list"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
